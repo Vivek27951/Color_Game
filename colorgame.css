@@ -1,0 +1,57 @@
+.head{
+	padding: 20px;
+	text-align: center;
+	background: lightblue;
+	margin-bottom: 0;
+}
+
+body{
+	background: black;
+}
+.bo{
+	padding: 50px;
+	margin: 5px;
+	border-radius: 10px;
+}
+.ta{
+	margin: auto ;
+	margin-top: 50px; 
+}
+.mid{
+	text-align: center;
+	background: silver;
+	width: 100%;
+	height: 100%;
+}
+ button{
+	background: silver;
+	height: 100%;
+	border: 0;
+	color: steelblue;
+	font-weight: 700;
+	outline: none;
+}
+.selected{
+	background: lightblue;
+	color: white; 
+}
+.wC{
+	font-weight: 450;
+}
+.correct{
+	color: green;
+	font-size: 17px;
+}
+.wrong{
+	color: red;
+	font-size: 17px;
+}
+span{
+	display: inline-block;
+	width: 120px;
+}
+button:hover{
+	color: white;
+	background: lightblue;
+	transition: all 0.5s;
+}
