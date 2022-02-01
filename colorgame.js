@@ -5,10 +5,10 @@ let square = document.querySelectorAll(".bo");
 let colorW = document.querySelector(".wC");
 let pickedColor = color[index(num)];
 let tR = document.querySelector("span");
-var hD = document.querySelector(".head");
-var sT = document.querySelector(".sT");
-var easy = document.querySelector(".easy");
-var hard = document.querySelector(".hard");
+let hD = document.querySelector(".head");
+let sT = document.querySelector(".sT");
+let easy = document.querySelector(".easy");
+let hard = document.querySelector(".hard");
 
 
 colorW.textContent = pickedColor;
